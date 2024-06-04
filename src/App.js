@@ -3,7 +3,7 @@ import { Digiturno } from './components/Digiturno'
 
 function App() {
   return (
-    <div> 
+    <div class='card mg-6'> 
         <Digiturno />
     </div>
   );

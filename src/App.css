@@ -1,3 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.div-principal {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #333; /* Borde de 2 píxeles de grosor, sólido y color gris */
+}
+
+#div-boton{
+  margin-bottom: 40px;
+}
+
 .turno {
   font-size: 3rem;
   text-align: center;
@@ -5,4 +23,16 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
+}
+
+.boton {
+  width: 150px;
+  height: 150px;
+  background-color: #3498db;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
 }
